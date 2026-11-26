@@ -1,0 +1,35 @@
+{
+  "name": "torizon",
+  "owner": {
+    "name": "Torizon team"
+  },
+  "metadata": {
+    "description": "Claude Code plugins used by the Torizon team."
+  },
+  "plugins": [
+    {
+      "name": "torizon-pre-push-triage",
+      "source": "./plugins/torizon-pre-push-triage",
+      "description": "Pre-push triage for the Torizon Yocto layers and toradex-manifest: deterministic checks, commit-message and layer review agents, a bitbake parse and a stamp the pre-push hook checks; after the PR/MR is opened as a draft, an independent review and a 'review done' comment.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "bitbake-watch",
+      "source": {
+        "source": "github",
+        "repo": "MatheusRodrigues-tor/bitbake-watch"
+      },
+      "description": "Live BitBake build progress above the prompt: follows the running build, or a build dir or log given to /bbwatch.",
+      "version": "0.4.0"
+    },
+    {
+      "name": "pending-board",
+      "source": {
+        "source": "github",
+        "repo": "MatheusRodrigues-tor/pending-board"
+      },
+      "description": "A pane of pending work items (tickets, PRs, follow-ups) that Claude keeps current, with a monitor tab for the GitHub PRs and GitLab MRs behind them.",
+      "version": "0.2.0"
+    }
+  ]
+}

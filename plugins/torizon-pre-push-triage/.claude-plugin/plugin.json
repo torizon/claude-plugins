@@ -1,0 +1,8 @@
+{
+  "name": "torizon-pre-push-triage",
+  "version": "1.0.0",
+  "description": "Pre-push triage for the Torizon Yocto layers and toradex-manifest, plus an independent review of the PR/MR once it is opened as a draft.",
+  "author": {
+    "name": "Torizon team"
+  }
+}
